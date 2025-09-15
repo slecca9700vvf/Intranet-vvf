@@ -1,0 +1,52 @@
+# Drupal 11 - Gitignore (root composer project)
+
+# Composer vendor
+/vendor/
+
+# Drupal core vendors
+/web/core/*
+/web/core/*/
+
+# Contrib modules, themes, profiles
+/web/*/contrib/
+
+# File e directory di upload / cache
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/simpletest/
+/tmp/
+/temp/
+/var/
+/log/
+/logs/
+
+# Configurazioni locali
+#/web/sites/*/settings*.php
+#/web/sites/*/services*.yml
+#/web/sites/*/settings.local.php
+
+# File di ambiente o secrets
+.env
+.env.*.local
+.env.local
+
+# IDE / Editor
+.idea/           # PhpStorm
+.vscode/         # VS Code
+*.iml
+*.ipr
+*.iws
+
+# File di sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# File di build / strumenti frontend
+node_modules/
+npm-debug.log*
+yarn-error.log*
+public/build/
+dist/
+/build/
