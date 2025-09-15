@@ -31,8 +31,8 @@
 .env.local
 
 # IDE / Editor
-.idea/           # PhpStorm
-.vscode/         # VS Code
+.idea/
+.vscode/
 *.iml
 *.ipr
 *.iws
