@@ -1,0 +1,114 @@
+uuid: 86bc1db4-86a4-4c1a-885c-a5f60b525613
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.vvf_ict_application.body
+    - field.field.node.vvf_ict_application.field_app_attachments
+    - field.field.node.vvf_ict_application.field_faqs
+    - field.field.node.vvf_ict_application.field_ict_app_deploy_state
+    - field.field.node.vvf_ict_application.field_ict_app_eol_date
+    - field.field.node.vvf_ict_application.field_ict_app_is_working
+    - field.field.node.vvf_ict_application.field_ict_app_relase_date
+    - field.field.node.vvf_ict_application.field_ict_app_type
+    - field.field.node.vvf_ict_application.field_title
+    - node.type.vvf_ict_application
+  module:
+    - datetime
+    - entity_reference_revisions
+    - text
+    - user
+id: node.vvf_ict_application.default
+targetEntityType: node
+bundle: vvf_ict_application
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_app_attachments:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_faqs:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_ict_app_deploy_state:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ict_app_eol_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_ict_app_is_working:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_ict_app_relase_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_ict_app_type:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

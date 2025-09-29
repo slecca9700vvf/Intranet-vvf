@@ -1,0 +1,19 @@
+uuid: f72c24af-0f40-4f2c-9fc6-0250dd2ce5af
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.faq
+id: paragraph.faq.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: faq
+label: Titolo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

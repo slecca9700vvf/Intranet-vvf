@@ -1,0 +1,41 @@
+uuid: 864d814f-ed76-4f15-b781-b1ca4526bba8
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table_left_header.field_hide
+    - field.field.paragraph.table_left_header.field_table
+    - field.field.paragraph.table_left_header.field_title
+    - paragraphs.paragraphs_type.table_left_header
+  module:
+    - tablefield
+id: paragraph.table_left_header.default
+targetEntityType: paragraph
+bundle: table_left_header
+mode: default
+content:
+  field_hide:
+    type: boolean_checkbox
+    weight: 3
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_table:
+    type: tablefield
+    weight: 4
+    region: content
+    settings:
+      input_type: textfield
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

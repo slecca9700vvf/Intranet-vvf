@@ -1,0 +1,21 @@
+uuid: 41d7a1e1-7ddb-4d04-afb1-bec430b4e359
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hide
+    - paragraphs.paragraphs_type.cta
+id: paragraph.cta.field_hide
+field_name: field_hide
+entity_type: paragraph
+bundle: cta
+label: Nascondi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Acceso
+  off_label: Spento
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 925d3aec-ed76-42e5-8376-a7fcb40cc74f
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hide
+    - paragraphs.paragraphs_type.table_top_header
+id: paragraph.table_top_header.field_hide
+field_name: field_hide
+entity_type: paragraph
+bundle: table_top_header
+label: Nascondi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Acceso
+  off_label: Spento
+field_type: boolean

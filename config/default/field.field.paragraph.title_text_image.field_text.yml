@@ -1,0 +1,24 @@
+uuid: 95004b5a-b777-47f4-9b03-e51b1fc60019
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.title_text_image
+  module:
+    - text
+id: paragraph.title_text_image.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: title_text_image
+label: Testo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

@@ -1,0 +1,29 @@
+uuid: b64cbe98-d5e6-4288-b4fb-b4164e35b38b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.insights.field_hide
+    - field.field.paragraph.insights.field_links
+    - paragraphs.paragraphs_type.insights
+  module:
+    - link
+id: paragraph.insights.default
+targetEntityType: paragraph
+bundle: insights
+mode: default
+content:
+  field_links:
+    type: link
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: nofollow
+      target: '0'
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_hide: true

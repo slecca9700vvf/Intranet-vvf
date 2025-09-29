@@ -1,0 +1,10 @@
+uuid: da7523b9-4d22-44da-8875-bbc46d670c44
+langcode: it
+status: true
+dependencies: {  }
+id: title_text_image
+label: 'Titolo + Miniatura + Testo'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

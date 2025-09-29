@@ -1,0 +1,79 @@
+uuid: 76feb499-ff49-4d84-bf9f-90949c1a695b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.event
+    - paragraphs.paragraphs_type.attachments
+  module:
+    - entity_reference_revisions
+id: node.event.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: event
+label: Paragrafi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      attachments: attachments
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 19
+        enabled: false
+      accordion_group:
+        weight: 20
+        enabled: false
+      accordion_table:
+        weight: 21
+        enabled: false
+      attachments:
+        weight: 22
+        enabled: true
+      card:
+        weight: 23
+        enabled: false
+      cards:
+        weight: 24
+        enabled: false
+      cta:
+        weight: 25
+        enabled: false
+      downloads:
+        weight: 27
+        enabled: false
+      faq:
+        weight: 28
+        enabled: false
+      faqs:
+        weight: 29
+        enabled: false
+      insights:
+        weight: 30
+        enabled: false
+      photo_gallery:
+        weight: 31
+        enabled: false
+      references:
+        weight: 32
+        enabled: false
+      table_left_header:
+        weight: 33
+        enabled: false
+      table_top_header:
+        weight: 34
+        enabled: false
+      title_text:
+        weight: 35
+        enabled: false
+      title_text_image:
+        weight: 36
+        enabled: false
+field_type: entity_reference_revisions

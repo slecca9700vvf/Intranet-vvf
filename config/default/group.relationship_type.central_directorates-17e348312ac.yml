@@ -1,0 +1,17 @@
+uuid: 508a8fbd-a936-46e7-8d6d-234f2dc4635a
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorates
+    - node.type.document
+  module:
+    - gnode
+    - node
+id: central_directorates-17e348312ac
+group_type: central_directorates
+content_plugin: 'group_node:document'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

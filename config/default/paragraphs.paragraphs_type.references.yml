@@ -1,0 +1,10 @@
+uuid: 940f8445-dc35-40a4-93d5-5d1375853a7d
+langcode: it
+status: true
+dependencies: {  }
+id: references
+label: 'Titolo + Link'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,24 @@
+uuid: 336fe87f-08d1-4155-830b-4796a662346b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.faq
+  module:
+    - text
+id: paragraph.faq.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: faq
+label: Testo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

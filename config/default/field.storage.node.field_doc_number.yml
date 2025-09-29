@@ -1,0 +1,20 @@
+uuid: 2570be79-39a4-42e1-ad1d-4341ce4a77e1
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_doc_number
+field_name: field_doc_number
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

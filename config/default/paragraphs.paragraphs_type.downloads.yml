@@ -1,0 +1,10 @@
+uuid: fa90d498-d150-40b4-9339-0afb590017a7
+langcode: it
+status: true
+dependencies: {  }
+id: downloads
+label: Downloads
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

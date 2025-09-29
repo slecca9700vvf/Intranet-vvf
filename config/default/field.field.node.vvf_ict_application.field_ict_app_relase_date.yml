@@ -1,0 +1,21 @@
+uuid: 1bceacf7-7acd-4d8b-840e-3f518c48ca8f
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ict_app_relase_date
+    - node.type.vvf_ict_application
+  module:
+    - datetime
+id: node.vvf_ict_application.field_ict_app_relase_date
+field_name: field_ict_app_relase_date
+entity_type: node
+bundle: vvf_ict_application
+label: 'Data rilascio'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

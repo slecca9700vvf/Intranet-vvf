@@ -1,0 +1,21 @@
+uuid: eefc04f0-b625-4ff2-ad64-6f7724afd89a
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ict_app_eol_date
+    - node.type.vvf_ict_application
+  module:
+    - datetime
+id: node.vvf_ict_application.field_ict_app_eol_date
+field_name: field_ict_app_eol_date
+entity_type: node
+bundle: vvf_ict_application
+label: 'Data dismissione'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

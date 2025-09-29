@@ -1,0 +1,22 @@
+uuid: 605c00fb-790a-4815-83e6-6a5165995272
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: sede_elenco
+label: 'Sede - Elenco'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'sedi/[term:name]'
+selection_criteria:
+  db47f1a3-d933-4be1-86e8-48875378d434:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: db47f1a3-d933-4be1-86e8-48875378d434
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      office_list: office_list
+selection_logic: and
+weight: -5
+relationships: {  }

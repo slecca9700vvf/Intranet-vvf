@@ -1,0 +1,19 @@
+uuid: a20ed3fe-077c-493f-8650-2a6075ab9e5a
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_location_id
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_location_id
+field_name: field_location_id
+entity_type: taxonomy_term
+bundle: director_list
+label: 'ID Sede'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

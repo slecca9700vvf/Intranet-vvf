@@ -1,0 +1,11 @@
+uuid: d2ad85fc-32b8-4f2e-bfc0-d8d39ae23a1a
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vvf_ict_application_deploy_state
+id: taxonomy_term.vvf_ict_application_deploy_state
+target_entity_type_id: taxonomy_term
+target_bundle: vvf_ict_application_deploy_state
+default_langcode: site_default
+language_alterable: false

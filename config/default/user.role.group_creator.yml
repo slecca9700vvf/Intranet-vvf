@@ -1,0 +1,21 @@
+uuid: 13792766-c273-478c-8cd1-19fc948bdbec
+langcode: it
+status: true
+dependencies:
+  module:
+    - admin_toolbar_search
+    - contextual
+    - group
+    - system
+    - toolbar
+id: group_creator
+label: 'Group Creator'
+weight: -5
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access group overview'
+  - 'access toolbar'
+  - 'create central_directorates group'
+  - 'use admin toolbar search'
+  - 'view the administration theme'

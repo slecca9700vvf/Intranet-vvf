@@ -1,0 +1,9 @@
+services:
+  vvf_group_manager.group_creator:
+    class: Drupal\vvf_group_manager\Service\GroupCreator
+    arguments: []
+
+### si possono creare i gruppi per ogni direzione centrale
+###     -> il campo ID Sede (field_location_id) non deve avere "." nel valore
+###        -> altrimenti è un sottoufficio
+###     OTTIMA QUADRA

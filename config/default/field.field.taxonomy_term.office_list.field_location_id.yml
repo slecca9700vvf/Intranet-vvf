@@ -1,0 +1,19 @@
+uuid: 39027129-5764-444b-8c42-d1001d6f2fdd
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_location_id
+    - taxonomy.vocabulary.office_list
+id: taxonomy_term.office_list.field_location_id
+field_name: field_location_id
+entity_type: taxonomy_term
+bundle: office_list
+label: 'ID Sede'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

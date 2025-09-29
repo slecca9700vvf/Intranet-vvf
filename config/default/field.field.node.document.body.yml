@@ -1,0 +1,26 @@
+uuid: 7459bd3e-74c2-4141-a809-80ab11778b35
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.document
+  module:
+    - text
+id: node.document.body
+field_name: body
+entity_type: node
+bundle: document
+label: Corpo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

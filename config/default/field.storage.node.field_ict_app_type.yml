@@ -1,0 +1,20 @@
+uuid: a9c9eedc-e28f-492a-99e1-5192ac02ab6d
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_ict_app_type
+field_name: field_ict_app_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

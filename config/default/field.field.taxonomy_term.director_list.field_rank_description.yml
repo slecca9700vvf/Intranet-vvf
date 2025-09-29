@@ -1,0 +1,19 @@
+uuid: 1f31d151-a63f-410c-846a-f4690772966a
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_rank_description
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_rank_description
+field_name: field_rank_description
+entity_type: taxonomy_term
+bundle: director_list
+label: 'Qualifica (Descrizione)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

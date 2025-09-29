@@ -1,0 +1,47 @@
+uuid: 40d3f37c-babd-4a9e-8dc9-41d8386849a0
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorates
+    - user.role.group_editor
+id: central_directorates-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: group_editor
+group_type: central_directorates
+permissions:
+  - 'access group content menu overview'
+  - 'access group_node overview'
+  - 'create group_node:document entity'
+  - 'create group_node:event entity'
+  - 'delete any group_node:document entity'
+  - 'delete any group_node:event entity'
+  - 'delete own group_node:document entity'
+  - 'delete own group_node:event entity'
+  - 'manage group_content_menu menu items'
+  - 'update any group_node:document entity'
+  - 'update any group_node:event entity'
+  - 'update own group_node:document entity'
+  - 'update own group_node:event entity'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view all group revisions'
+  - 'view group'
+  - 'view group revisions'
+  - 'view group_membership relationship'
+  - 'view group_node:document entity'
+  - 'view group_node:document relationship'
+  - 'view group_node:event entity'
+  - 'view group_node:event relationship'
+  - 'view latest version'
+  - 'view own unpublished group'
+  - 'view own unpublished group_node:document entity'
+  - 'view own unpublished group_node:event entity'
+  - 'view unpublished group_node:document entity'
+  - 'view unpublished group_node:event entity'

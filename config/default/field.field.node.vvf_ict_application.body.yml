@@ -1,0 +1,26 @@
+uuid: db856c61-6913-4796-870e-62958720c3ef
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.vvf_ict_application
+  module:
+    - text
+id: node.vvf_ict_application.body
+field_name: body
+entity_type: node
+bundle: vvf_ict_application
+label: Corpo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

@@ -1,0 +1,108 @@
+uuid: 261a455b-e95d-472d-b0d9-1d326c103ca9
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphs
+    - node.type.all_paragraphs_test
+    - paragraphs.paragraphs_type.accordion_group
+    - paragraphs.paragraphs_type.attachments
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.cards
+    - paragraphs.paragraphs_type.cta
+    - paragraphs.paragraphs_type.downloads
+    - paragraphs.paragraphs_type.faqs
+    - paragraphs.paragraphs_type.insights
+    - paragraphs.paragraphs_type.photo_gallery
+    - paragraphs.paragraphs_type.references
+    - paragraphs.paragraphs_type.table_left_header
+    - paragraphs.paragraphs_type.table_top_header
+    - paragraphs.paragraphs_type.title_text
+    - paragraphs.paragraphs_type.title_text_image
+  module:
+    - entity_reference_revisions
+id: node.all_paragraphs_test.field_paragraphs
+field_name: field_paragraphs
+entity_type: node
+bundle: all_paragraphs_test
+label: Paragrafi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      accordion_group: accordion_group
+      attachments: attachments
+      card: card
+      cards: cards
+      cta: cta
+      downloads: downloads
+      faqs: faqs
+      insights: insights
+      photo_gallery: photo_gallery
+      references: references
+      table_left_header: table_left_header
+      table_top_header: table_top_header
+      title_text: title_text
+      title_text_image: title_text_image
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 19
+        enabled: false
+      accordion_group:
+        weight: 20
+        enabled: true
+      accordion_table:
+        weight: 21
+        enabled: false
+      attachments:
+        weight: 22
+        enabled: true
+      card:
+        weight: 23
+        enabled: true
+      cards:
+        weight: 24
+        enabled: true
+      cta:
+        weight: 25
+        enabled: true
+      cta_full:
+        weight: 26
+        enabled: true
+      downloads:
+        weight: 27
+        enabled: true
+      faq:
+        weight: 28
+        enabled: false
+      faqs:
+        weight: 29
+        enabled: true
+      insights:
+        weight: 30
+        enabled: true
+      photo_gallery:
+        weight: 31
+        enabled: true
+      references:
+        weight: 32
+        enabled: true
+      table_left_header:
+        weight: 33
+        enabled: true
+      table_top_header:
+        weight: 34
+        enabled: true
+      title_text:
+        weight: 35
+        enabled: true
+      title_text_image:
+        weight: 36
+        enabled: true
+field_type: entity_reference_revisions

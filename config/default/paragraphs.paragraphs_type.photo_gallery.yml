@@ -1,0 +1,10 @@
+uuid: 8f9245bc-2c3b-4c49-b94d-09fe001197d4
+langcode: it
+status: true
+dependencies: {  }
+id: photo_gallery
+label: 'Galleria Fotografica TODO'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

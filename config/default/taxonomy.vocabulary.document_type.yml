@@ -1,0 +1,9 @@
+uuid: b7e40e24-318c-4518-b819-2240c8697b9b
+langcode: it
+status: true
+dependencies: {  }
+name: 'Documento - Tipologia'
+vid: document_type
+description: null
+weight: 0
+new_revision: false

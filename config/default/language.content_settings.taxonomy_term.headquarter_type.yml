@@ -1,0 +1,11 @@
+uuid: 385e1eb2-2e97-4819-8696-466eeb186329
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.headquarter_type
+id: taxonomy_term.headquarter_type
+target_entity_type_id: taxonomy_term
+target_bundle: headquarter_type
+default_langcode: site_default
+language_alterable: false

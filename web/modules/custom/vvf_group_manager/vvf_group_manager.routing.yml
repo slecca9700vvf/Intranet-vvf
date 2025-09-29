@@ -1,0 +1,7 @@
+vvf_group_manager.create_groups:
+  path: '/admin/import/groups'
+  defaults:
+    _controller: '\Drupal\vvf_group_manager\Controller\GroupCreatorController::createGroups'
+    _title: 'Crea i gruppi per eventuali nuove sedi e rimuove dalla pubblicazione eventuali non corrispondenze'
+  requirements:
+    _role: 'administrator'

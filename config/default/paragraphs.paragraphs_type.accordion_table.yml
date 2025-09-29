@@ -1,0 +1,10 @@
+uuid: 471c815d-c038-44f6-9415-f55fa25a76d9
+langcode: it
+status: true
+dependencies: {  }
+id: accordion_table
+label: 'Accordion Tabella'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

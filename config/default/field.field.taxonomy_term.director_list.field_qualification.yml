@@ -1,0 +1,19 @@
+uuid: df125ff2-5694-4456-b9a4-3c81abd48c76
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_qualification
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_qualification
+field_name: field_qualification
+entity_type: taxonomy_term
+bundle: director_list
+label: 'Titolo di Studio (Sigla)'
+description: 'Es. Dott./ssa - Ing. - Arch.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

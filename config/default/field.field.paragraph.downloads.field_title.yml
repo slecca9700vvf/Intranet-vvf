@@ -1,0 +1,19 @@
+uuid: deaea9a9-e19e-4b2a-a174-3df512d20001
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.downloads
+id: paragraph.downloads.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: downloads
+label: Titolo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

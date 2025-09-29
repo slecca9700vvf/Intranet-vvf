@@ -1,0 +1,5 @@
+name: VVF Utils
+description: Contains common features and variables used in variuous modules
+package: VVF
+type: module
+core_version_requirement: ^11

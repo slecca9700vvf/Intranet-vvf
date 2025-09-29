@@ -1,0 +1,43 @@
+uuid: 582536b6-9ad1-4ca9-a949-bd199e931eb2
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.insights.field_hide
+    - field.field.paragraph.insights.field_links
+    - paragraphs.paragraphs_type.insights
+  module:
+    - link_attributes
+id: paragraph.insights.default
+targetEntityType: paragraph
+bundle: insights
+mode: default
+content:
+  field_hide:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_links:
+    type: link_attributes
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      enabled_attributes:
+        target: true
+        id: false
+        name: false
+        rel: false
+        class: false
+        accesskey: false
+        aria-label: false
+        title: false
+      widget_default_open: expandIfValuesSet
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

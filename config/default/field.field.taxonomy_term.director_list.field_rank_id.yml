@@ -1,0 +1,19 @@
+uuid: a78d847b-37b0-491e-9a3d-bda905ba536d
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_rank_id
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_rank_id
+field_name: field_rank_id
+entity_type: taxonomy_term
+bundle: director_list
+label: 'Qualifica (Sigla)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

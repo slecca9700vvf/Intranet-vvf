@@ -1,0 +1,22 @@
+uuid: a81d0a26-be09-4c54-ab42-d856e1400fa8
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: dirigente_elenco
+label: 'Dirigente - Elenco'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'dirigenti/[term:tid]'
+selection_criteria:
+  e9f4d17f-9748-4f58-8bff-a1806d1d7c68:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: e9f4d17f-9748-4f58-8bff-a1806d1d7c68
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      director_list: director_list
+selection_logic: and
+weight: -5
+relationships: {  }

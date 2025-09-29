@@ -1,0 +1,87 @@
+uuid: c30394d9-b29d-496b-a007-cd4273b42569
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.accordion_group
+    - paragraphs.paragraphs_type.accordion_table
+  module:
+    - entity_reference_revisions
+id: paragraph.accordion_group.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: accordion_group
+label: Accordion
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      accordion: accordion
+      accordion_table: accordion_table
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 19
+        enabled: true
+      accordion_downloads:
+        weight: 21
+        enabled: true
+      accordion_group:
+        weight: 20
+        enabled: false
+      accordion_table:
+        weight: 21
+        enabled: true
+      attachments:
+        weight: 22
+        enabled: false
+      card:
+        weight: 23
+        enabled: false
+      cards:
+        weight: 24
+        enabled: false
+      cta:
+        weight: 25
+        enabled: false
+      cta_full:
+        weight: 26
+        enabled: false
+      downloads:
+        weight: 27
+        enabled: false
+      faq:
+        weight: 28
+        enabled: false
+      faqs:
+        weight: 29
+        enabled: false
+      insights:
+        weight: 30
+        enabled: false
+      photo_gallery:
+        weight: 31
+        enabled: false
+      references:
+        weight: 32
+        enabled: false
+      table_left_header:
+        weight: 33
+        enabled: false
+      table_top_header:
+        weight: 34
+        enabled: false
+      title_text:
+        weight: 35
+        enabled: false
+      title_text_image:
+        weight: 36
+        enabled: false
+field_type: entity_reference_revisions

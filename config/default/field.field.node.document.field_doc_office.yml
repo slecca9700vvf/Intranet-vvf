@@ -1,0 +1,29 @@
+uuid: 806e918b-5d57-41a1-942d-e8e2d3c018de
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doc_office
+    - node.type.document
+    - taxonomy.vocabulary.office_list
+id: node.document.field_doc_office
+field_name: field_doc_office
+entity_type: node
+bundle: document
+label: 'Ufficio emanante'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      office_list: office_list
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

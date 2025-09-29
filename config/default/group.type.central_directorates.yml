@@ -1,0 +1,11 @@
+uuid: 17f53451-916d-4b28-8f11-6948ba3c1002
+langcode: it
+status: true
+dependencies: {  }
+id: central_directorates
+label: 'Direzioni centrali'
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

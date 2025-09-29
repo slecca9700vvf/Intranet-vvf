@@ -1,0 +1,19 @@
+uuid: 5acc0f6f-39f2-426f-b422-7dbef07086e1
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_location_type
+    - taxonomy.vocabulary.office_list
+id: taxonomy_term.office_list.field_location_type
+field_name: field_location_type
+entity_type: taxonomy_term
+bundle: office_list
+label: 'Tipologia Sede'
+description: 'Tipologia sede recuperata da WAUC'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

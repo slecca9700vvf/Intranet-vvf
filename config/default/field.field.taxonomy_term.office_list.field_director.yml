@@ -1,0 +1,29 @@
+uuid: 015c60a4-4f76-4ab9-99a1-6996af388b58
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_director
+    - taxonomy.vocabulary.director_list
+    - taxonomy.vocabulary.office_list
+id: taxonomy_term.office_list.field_director
+field_name: field_director
+entity_type: taxonomy_term
+bundle: office_list
+label: Dirigente
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      director_list: director_list
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: director_list
+field_type: entity_reference

@@ -1,0 +1,38 @@
+uuid: bf45f774-c9a4-4670-af57-491400d18838
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.references.field_hide
+    - field.field.paragraph.references.field_links
+    - field.field.paragraph.references.field_title
+    - paragraphs.paragraphs_type.references
+  module:
+    - link
+id: paragraph.references.default
+targetEntityType: paragraph
+bundle: references
+mode: default
+content:
+  field_links:
+    type: link
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: nofollow
+      target: '0'
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_hide: true

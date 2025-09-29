@@ -1,0 +1,22 @@
+uuid: ebb9ebb6-b2e2-40ac-90b8-1279e961fa94
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+id: ct_ict_application
+label: 'CT Applicativo'
+type: 'canonical_entities:node'
+pattern: 'applicativi/[node:title]'
+selection_criteria:
+  bddd3e5a-1eba-4ab8-aed8-cbb7697b4cf5:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: bddd3e5a-1eba-4ab8-aed8-cbb7697b4cf5
+    context_mapping:
+      node: node
+    bundles:
+      vvf_ict_application: vvf_ict_application
+selection_logic: and
+weight: -5
+relationships: {  }

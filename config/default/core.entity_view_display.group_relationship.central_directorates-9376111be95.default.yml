@@ -1,0 +1,24 @@
+uuid: 31eedfb2-3039-4036-b75f-a4ea83640ffd
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.central_directorates-9376111be95.group_roles
+    - group.relationship_type.central_directorates-9376111be95
+id: group_relationship.central_directorates-9376111be95.default
+targetEntityType: group_relationship
+bundle: central_directorates-9376111be95
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  langcode: true
+  uid: true

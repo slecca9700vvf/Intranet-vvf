@@ -1,0 +1,9 @@
+uuid: bcc8d6af-c78f-43fa-b0b1-24f2196fb0da
+langcode: it
+status: true
+dependencies: {  }
+name: 'Applicativo - Stato sviluppo'
+vid: vvf_ict_application_deploy_state
+description: null
+weight: 0
+new_revision: false

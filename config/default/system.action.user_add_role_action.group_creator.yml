@@ -1,0 +1,14 @@
+uuid: f6357313-82bf-4f67-b2e2-8727404b7104
+langcode: it
+status: true
+dependencies:
+  config:
+    - user.role.group_creator
+  module:
+    - user
+id: user_add_role_action.group_creator
+label: 'Add the Group Creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: group_creator

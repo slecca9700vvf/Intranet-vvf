@@ -1,0 +1,19 @@
+uuid: 74545be6-e23c-46c3-85b4-f67192def7b0
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_cf
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_cf
+field_name: field_cf
+entity_type: taxonomy_term
+bundle: director_list
+label: 'Codice Fiscale'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

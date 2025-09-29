@@ -1,0 +1,29 @@
+uuid: 570e51aa-591a-4d97-a15a-4c2a14f24f56
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_reference_location
+    - group.type.central_directorates
+    - taxonomy.vocabulary.office_list
+id: group.central_directorates.field_reference_location
+field_name: field_reference_location
+entity_type: group
+bundle: central_directorates
+label: 'Sede di riferimento'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      office_list: office_list
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

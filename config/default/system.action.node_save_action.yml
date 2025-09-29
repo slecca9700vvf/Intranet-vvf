@@ -1,0 +1,13 @@
+uuid: 2a86d8a5-d9e5-4eca-8b10-1c6061dac572
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'Salva contenuto'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

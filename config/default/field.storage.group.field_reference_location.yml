@@ -1,0 +1,20 @@
+uuid: 6525f126-3e25-4615-911b-62f0bb0045d9
+langcode: it
+status: true
+dependencies:
+  module:
+    - group
+    - taxonomy
+id: group.field_reference_location
+field_name: field_reference_location
+entity_type: group
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: 0f95685b-4341-4e62-8000-198d14871217
+langcode: it
+status: true
+dependencies:
+  module:
+    - help
+_core:
+  default_config_hash: RZ-bcSekNSsAbIPLW7Gmyd3uUjIOSrPvnb8RCCZYJm8
+id: help_search
+label: Aiuto
+path: help
+weight: 0
+plugin: help_search
+configuration: {  }

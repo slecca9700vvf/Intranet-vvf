@@ -1,0 +1,24 @@
+uuid: 53024771-69d1-445f-aeee-ce9f41ac43da
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doc_date
+    - node.type.document
+  module:
+    - datetime
+id: node.document.field_doc_date
+field_name: field_doc_date
+entity_type: node
+bundle: document
+label: 'Data documento'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

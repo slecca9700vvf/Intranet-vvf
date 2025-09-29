@@ -1,0 +1,22 @@
+uuid: 9dcc8949-93ea-4b5b-984d-0504e21f3600
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.group_relationship.group_roles
+    - group.relationship_type.central_directorates-9376111be95
+id: group_relationship.central_directorates-9376111be95.group_roles
+field_name: group_roles
+entity_type: group_relationship
+bundle: central_directorates-9376111be95
+label: Ruoli
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'group_type:group_role'
+  handler_settings:
+    group_type_id: central_directorates
+field_type: entity_reference

@@ -1,0 +1,18 @@
+vvf_import.admin_actions:
+  title: 'Azioni'
+  description: 'Azioni disponibili per utenti amministratori/gestori principali del sito'
+  parent: system.admin
+  route_name: <none>
+  weight: 100
+vvf_import.importLocations:
+  title: 'Import Sedi'
+  description: 'Importa le Direzioni Centrali e gli Uffici da esse dipendenti'
+  parent: vvf_import.admin_actions
+  route_name: vvf_import.importLocations
+  weight: 0
+vvf_import.importDirectors:
+  title: 'Import Dirigenti - Prefetti'
+  description: 'Importa i Dirigenti e i Prefetti che prestano servizio nel CNVVF'
+  parent: vvf_import.admin_actions
+  route_name: vvf_import.importDirectors
+  weight: 1

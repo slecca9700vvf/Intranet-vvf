@@ -1,0 +1,12 @@
+name: VVF Import Module
+description: VVF Import Module used to fetch wauc API
+package: VVF Intranet
+
+type: module
+core_version_requirement: ^11.2
+dependencies:
+  - drupal:views
+  - paragraphs:paragraphs
+  - drupal:utils
+
+php: 8.3

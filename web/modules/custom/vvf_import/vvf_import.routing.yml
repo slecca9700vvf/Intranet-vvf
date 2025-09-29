@@ -1,0 +1,22 @@
+# Fornire voci di menu per aggiornamento
+vvf_import.importLocations:
+  path: '/admin/import/sedi'
+  defaults:
+    _controller: '\Drupal\vvf_import\Controller\LocationsImportController::importLocations'
+    _title: 'Importa le Direzioni Centrali e gli Uffici da esse dipendenti'
+  requirements:
+    _role: 'administrator'
+vvf_import.importDirectors:
+  path: '/admin/import/dirigenti'
+  defaults:
+    _controller: '\Drupal\vvf_import\Controller\DirectorsImportController::importDirectors'
+    _title: 'Importa i Dirigenti e i Prefetti che prestano servizion nel CNVVF'
+  requirements:
+    _role: 'administrator'
+vvf_import.test_sedi:
+  path: '/admin/test/sedi'
+  defaults:
+    _controller: '\Drupal\vvf_import\Controller\OperationsController::exportSedi'
+    _title: 'Export Dati Sedi'
+  requirements:
+    _role: 'administrator'

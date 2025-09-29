@@ -1,0 +1,29 @@
+uuid: e6a9ac12-dfb0-42e7-85ed-41851119e1cc
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ict_app_deploy_state
+    - node.type.vvf_ict_application
+    - taxonomy.vocabulary.vvf_ict_application_deploy_state
+id: node.vvf_ict_application.field_ict_app_deploy_state
+field_name: field_ict_app_deploy_state
+entity_type: node
+bundle: vvf_ict_application
+label: 'Stato sviluppo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vvf_ict_application_deploy_state: vvf_ict_application_deploy_state
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

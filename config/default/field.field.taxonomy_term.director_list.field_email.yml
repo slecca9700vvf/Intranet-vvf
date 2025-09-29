@@ -1,0 +1,19 @@
+uuid: 101648c5-8471-4b5f-9076-f283e5af4305
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_email
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_email
+field_name: field_email
+entity_type: taxonomy_term
+bundle: director_list
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

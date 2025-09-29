@@ -1,0 +1,10 @@
+uuid: aa82db35-7d3f-4432-910f-bb09df16a646
+langcode: it
+status: true
+dependencies: {  }
+id: table_left_header
+label: 'Tabella - Intestazione a sinistra'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+uuid: ae630e6e-6f33-4c08-ba2a-be7f419a8eab
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorates
+    - node.type.event
+  module:
+    - gnode
+    - node
+id: central_directorates-96a093787d2
+group_type: central_directorates
+content_plugin: 'group_node:event'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

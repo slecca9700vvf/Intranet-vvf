@@ -1,0 +1,24 @@
+uuid: da993cd7-9eee-42cd-b9a5-0417bfec3291
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.attachments.field_documents
+    - field.field.paragraph.attachments.field_hide
+    - paragraphs.paragraphs_type.attachments
+id: paragraph.attachments.default
+targetEntityType: paragraph
+bundle: attachments
+mode: default
+content:
+  field_documents:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_hide: true

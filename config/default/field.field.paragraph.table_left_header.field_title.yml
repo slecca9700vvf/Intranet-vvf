@@ -1,0 +1,19 @@
+uuid: 4970f3ab-145e-4301-a5b0-31964792193b
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.table_left_header
+id: paragraph.table_left_header.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: table_left_header
+label: Titolo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

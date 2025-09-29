@@ -1,0 +1,78 @@
+uuid: c2a06514-9b99-410d-943d-0db835f900f7
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.director_list.field_cf
+    - field.field.taxonomy_term.director_list.field_email
+    - field.field.taxonomy_term.director_list.field_is_external
+    - field.field.taxonomy_term.director_list.field_location_id
+    - field.field.taxonomy_term.director_list.field_qualification
+    - field.field.taxonomy_term.director_list.field_rank_description
+    - field.field.taxonomy_term.director_list.field_rank_id
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.default
+targetEntityType: taxonomy_term
+bundle: director_list
+mode: default
+content:
+  field_cf:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_is_external:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_location_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_qualification:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_rank_description:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_rank_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  description: true
+  langcode: true

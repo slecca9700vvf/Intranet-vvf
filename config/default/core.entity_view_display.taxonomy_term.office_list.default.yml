@@ -1,0 +1,93 @@
+uuid: 1be22b5f-e6b2-45b0-b57d-9f1d49c02f9f
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.office_list.field_director
+    - field.field.taxonomy_term.office_list.field_email
+    - field.field.taxonomy_term.office_list.field_location_address
+    - field.field.taxonomy_term.office_list.field_location_aoo_code
+    - field.field.taxonomy_term.office_list.field_location_code
+    - field.field.taxonomy_term.office_list.field_location_id
+    - field.field.taxonomy_term.office_list.field_location_parent_id
+    - field.field.taxonomy_term.office_list.field_location_type
+    - field.field.taxonomy_term.office_list.field_phone
+    - taxonomy.vocabulary.office_list
+id: taxonomy_term.office_list.default
+targetEntityType: taxonomy_term
+bundle: office_list
+mode: default
+content:
+  field_director:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_location_address:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_location_aoo_code:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_location_code:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_location_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_location_parent_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_location_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_phone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  description: true
+  langcode: true

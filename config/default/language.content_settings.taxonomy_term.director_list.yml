@@ -1,0 +1,11 @@
+uuid: 2c7bd726-a15f-477c-aaf1-05fa4f73d74b
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list
+target_entity_type_id: taxonomy_term
+target_bundle: director_list
+default_langcode: site_default
+language_alterable: false

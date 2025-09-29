@@ -1,0 +1,79 @@
+uuid: d09e1d59-53e8-47d6-a311-2121e9baa540
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faqs
+    - node.type.vvf_ict_application
+    - paragraphs.paragraphs_type.faqs
+  module:
+    - entity_reference_revisions
+id: node.vvf_ict_application.field_faqs
+field_name: field_faqs
+entity_type: node
+bundle: vvf_ict_application
+label: FAQs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      faqs: faqs
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 18
+        enabled: false
+      accordion_group:
+        weight: 19
+        enabled: false
+      accordion_table:
+        weight: 20
+        enabled: false
+      attachments:
+        weight: 21
+        enabled: false
+      card:
+        weight: 22
+        enabled: false
+      cards:
+        weight: 23
+        enabled: false
+      cta:
+        weight: 24
+        enabled: false
+      downloads:
+        weight: 25
+        enabled: false
+      faq:
+        weight: 26
+        enabled: false
+      faqs:
+        weight: 27
+        enabled: true
+      insights:
+        weight: 28
+        enabled: false
+      photo_gallery:
+        weight: 29
+        enabled: false
+      references:
+        weight: 30
+        enabled: false
+      table_left_header:
+        weight: 31
+        enabled: false
+      table_top_header:
+        weight: 32
+        enabled: false
+      title_text:
+        weight: 33
+        enabled: false
+      title_text_image:
+        weight: 34
+        enabled: false
+field_type: entity_reference_revisions

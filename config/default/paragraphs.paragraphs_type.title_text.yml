@@ -1,0 +1,10 @@
+uuid: e7a47a94-3e49-4c92-b504-17fe6a341fae
+langcode: it
+status: true
+dependencies: {  }
+id: title_text
+label: 'Titolo + Testo'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

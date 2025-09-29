@@ -1,0 +1,9 @@
+uuid: b7197c7e-9109-4131-8a49-a620491c6b63
+langcode: it
+status: true
+dependencies: {  }
+name: 'Applicativo - Tipologia'
+vid: vvf_ict_application_type
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,9 @@
+uuid: e71e1367-d70b-44da-a805-4015c05746e5
+langcode: it
+status: true
+dependencies: {  }
+name: 'Sede - Elenco'
+vid: office_list
+description: null
+weight: 0
+new_revision: false

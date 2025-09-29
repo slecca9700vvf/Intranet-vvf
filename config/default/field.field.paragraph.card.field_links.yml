@@ -1,0 +1,23 @@
+uuid: 603cd054-f7f6-4cc9-aaa1-0c8e9816ccac
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_links
+    - paragraphs.paragraphs_type.card
+  module:
+    - link
+id: paragraph.card.field_links
+field_name: field_links
+entity_type: paragraph
+bundle: card
+label: Links
+description: 'Per aprire il link in una nuova scheda, selezionare il valore "New window (_blank)" per l''''attributo Target'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

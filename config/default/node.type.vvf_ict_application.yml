@@ -1,0 +1,18 @@
+uuid: 77cb3a84-437b-468b-a877-633972457f55
+langcode: it
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Applicativo
+type: vvf_ict_application
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

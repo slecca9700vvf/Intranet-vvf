@@ -1,0 +1,13 @@
+uuid: 40ce5864-f7af-40d0-adbd-62169ccdd14d
+langcode: it
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 1TFiplNN7Wmj_DtVLLLP-NLPYpZJdAswKY-vTrYgFyo
+id: user.register
+label: Registrati
+description: null
+targetEntityType: user
+cache: true

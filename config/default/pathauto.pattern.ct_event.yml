@@ -1,0 +1,22 @@
+uuid: f00926e4-9a5b-4867-bd68-1ef90f173a44
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+id: ct_event
+label: 'CT Evento'
+type: 'canonical_entities:node'
+pattern: 'eventi/[node:title]'
+selection_criteria:
+  f55b8877-818e-4170-aff3-9c0d4a3ef4e9:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: f55b8877-818e-4170-aff3-9c0d4a3ef4e9
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+selection_logic: and
+weight: -5
+relationships: {  }

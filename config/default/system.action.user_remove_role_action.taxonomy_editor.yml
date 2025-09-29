@@ -1,0 +1,14 @@
+uuid: 8f90484e-ca02-4fe3-8052-abbbde244ad4
+langcode: it
+status: true
+dependencies:
+  config:
+    - user.role.taxonomy_editor
+  module:
+    - user
+id: user_remove_role_action.taxonomy_editor
+label: 'Remove the Taxonomy Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: taxonomy_editor

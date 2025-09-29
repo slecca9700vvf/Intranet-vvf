@@ -1,0 +1,185 @@
+uuid: 99eeb915-3a7b-4572-b240-bf91ab39fd14
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.vvf_ict_application.body
+    - field.field.node.vvf_ict_application.field_app_attachments
+    - field.field.node.vvf_ict_application.field_faqs
+    - field.field.node.vvf_ict_application.field_ict_app_deploy_state
+    - field.field.node.vvf_ict_application.field_ict_app_eol_date
+    - field.field.node.vvf_ict_application.field_ict_app_is_working
+    - field.field.node.vvf_ict_application.field_ict_app_relase_date
+    - field.field.node.vvf_ict_application.field_ict_app_type
+    - field.field.node.vvf_ict_application.field_title
+    - node.type.vvf_ict_application
+    - workflows.workflow.editorial
+  module:
+    - content_moderation
+    - datetime
+    - paragraphs
+    - path
+    - text
+id: node.vvf_ict_application.default
+targetEntityType: node
+bundle: vvf_ict_application
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_app_attachments:
+    type: paragraphs
+    weight: 17
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_faqs:
+    type: paragraphs
+    weight: 16
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_ict_app_deploy_state:
+    type: entity_reference_autocomplete
+    weight: 12
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ict_app_eol_date:
+    type: datetime_default
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ict_app_is_working:
+    type: boolean_checkbox
+    weight: 11
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_ict_app_relase_date:
+    type: datetime_default
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ict_app_type:
+    type: entity_reference_autocomplete
+    weight: 13
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 9
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

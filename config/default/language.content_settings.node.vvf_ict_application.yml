@@ -1,0 +1,11 @@
+uuid: 34b68fc5-a5d8-44ee-9495-b6b93e3e9621
+langcode: it
+status: true
+dependencies:
+  config:
+    - node.type.vvf_ict_application
+id: node.vvf_ict_application
+target_entity_type_id: node
+target_bundle: vvf_ict_application
+default_langcode: site_default
+language_alterable: false

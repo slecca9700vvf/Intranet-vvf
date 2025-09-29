@@ -1,0 +1,10 @@
+uuid: c1e2e78e-05f4-4fd6-bf5f-8c6a14b9c525
+langcode: it
+status: true
+dependencies: {  }
+id: table_top_header
+label: 'Tabella - Intestazione in alto'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

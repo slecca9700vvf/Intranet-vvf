@@ -1,0 +1,20 @@
+uuid: 7434688c-a512-4baa-b0c6-5f1680bee7cf
+langcode: it
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_ict_app_eol_date
+field_name: field_ict_app_eol_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

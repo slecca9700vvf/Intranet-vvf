@@ -1,0 +1,93 @@
+uuid: f32956ec-bfaf-44ec-abdc-12eef941f294
+langcode: it
+status: true
+dependencies:
+  config:
+    - media.type.document
+    - media.type.image
+    - media.type.video
+    - node.type.all_paragraphs_test
+    - node.type.document
+    - node.type.event
+    - node.type.home_page
+    - node.type.page
+    - node.type.vvf_ict_application
+    - workflows.workflow.editorial
+  module:
+    - admin_toolbar_search
+    - content_moderation
+    - contextual
+    - file
+    - media
+    - node
+    - path
+    - system
+    - toolbar
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Content editor'
+weight: -7
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'administer menu'
+  - 'administer url aliases'
+  - 'create all_paragraphs_test content'
+  - 'create document content'
+  - 'create document media'
+  - 'create event content'
+  - 'create home_page content'
+  - 'create image media'
+  - 'create page content'
+  - 'create url aliases'
+  - 'create video media'
+  - 'create vvf_ict_application content'
+  - 'delete all_paragraphs_test revisions'
+  - 'delete any all_paragraphs_test content'
+  - 'delete document revisions'
+  - 'delete event revisions'
+  - 'delete home_page revisions'
+  - 'delete own all_paragraphs_test content'
+  - 'delete own document content'
+  - 'delete own document media'
+  - 'delete own event content'
+  - 'delete own files'
+  - 'delete own home_page content'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete own video media'
+  - 'delete own vvf_ict_application content'
+  - 'delete page revisions'
+  - 'delete vvf_ict_application revisions'
+  - 'edit any all_paragraphs_test content'
+  - 'edit any document content'
+  - 'edit any event content'
+  - 'edit any home_page content'
+  - 'edit any page content'
+  - 'edit any vvf_ict_application content'
+  - 'edit own all_paragraphs_test content'
+  - 'edit own document content'
+  - 'edit own document media'
+  - 'edit own event content'
+  - 'edit own home_page content'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own video media'
+  - 'edit own vvf_ict_application content'
+  - 'revert all revisions'
+  - 'use admin toolbar search'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view the administration theme'

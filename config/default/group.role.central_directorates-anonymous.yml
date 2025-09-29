@@ -1,0 +1,20 @@
+uuid: 534bd597-a3af-490d-971b-e8340cfeed68
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorates
+    - user.role.anonymous
+id: central_directorates-anonymous
+label: Anonimo
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: central_directorates
+permissions:
+  - 'view group'
+  - 'view group_node:document entity'
+  - 'view group_node:document relationship'
+  - 'view group_node:event entity'
+  - 'view group_node:event relationship'

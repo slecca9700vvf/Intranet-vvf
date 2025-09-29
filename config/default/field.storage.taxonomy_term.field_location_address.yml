@@ -1,0 +1,19 @@
+uuid: b315a7ef-08b6-4531-918f-a87785bd56f9
+langcode: it
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_location_address
+field_name: field_location_address
+entity_type: taxonomy_term
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

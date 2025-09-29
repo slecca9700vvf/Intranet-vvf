@@ -1,0 +1,19 @@
+uuid: b27d2806-8cfe-483f-8d75-4155fe1ee188
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.vvf_ict_application
+id: node.vvf_ict_application.field_title
+field_name: field_title
+entity_type: node
+bundle: vvf_ict_application
+label: Titolo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

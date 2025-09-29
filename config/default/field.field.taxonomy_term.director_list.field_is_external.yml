@@ -1,0 +1,21 @@
+uuid: 2e87cc18-8620-464b-ba06-cf96902993b6
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_is_external
+    - taxonomy.vocabulary.director_list
+id: taxonomy_term.director_list.field_is_external
+field_name: field_is_external
+entity_type: taxonomy_term
+bundle: director_list
+label: 'Personale Esterno'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Acceso
+  off_label: Spento
+field_type: boolean

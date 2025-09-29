@@ -1,0 +1,41 @@
+uuid: 83434fbd-93cb-4870-b07b-75d2e27989b5
+langcode: it
+status: true
+dependencies:
+  config:
+    - workflows.workflow.editorial
+  module:
+    - admin_toolbar_search
+    - content_moderation
+    - contextual
+    - field_ui
+    - file
+    - group
+    - group_content_menu
+    - node
+    - system
+    - tablefield
+    - toolbar
+id: group_editor
+label: 'Group Editor'
+weight: -6
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access group overview'
+  - 'access toolbar'
+  - 'administer group_content_menu display'
+  - 'administer menu'
+  - 'rebuild tablefield'
+  - 'use admin toolbar search'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view the administration theme'

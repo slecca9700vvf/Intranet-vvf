@@ -1,0 +1,11 @@
+uuid: 08a5f0e3-9125-44ad-8476-ae2d2f967f74
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.office_list
+id: taxonomy_term.office_list
+target_entity_type_id: taxonomy_term
+target_bundle: office_list
+default_langcode: site_default
+language_alterable: false

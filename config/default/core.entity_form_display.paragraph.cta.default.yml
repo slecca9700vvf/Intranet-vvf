@@ -1,0 +1,70 @@
+uuid: eac2d97c-bdbe-4ac9-b940-69cbc6f7ad1d
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cta.field_hide
+    - field.field.paragraph.cta.field_links
+    - field.field.paragraph.cta.field_media_image
+    - field.field.paragraph.cta.field_small_text
+    - field.field.paragraph.cta.field_title
+    - paragraphs.paragraphs_type.cta
+  module:
+    - link_attributes
+    - media_library
+id: paragraph.cta.default
+targetEntityType: paragraph
+bundle: cta
+mode: default
+content:
+  field_hide:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_links:
+    type: link_attributes
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      enabled_attributes:
+        target: true
+        id: false
+        name: false
+        rel: false
+        class: false
+        accesskey: false
+        aria-label: false
+        title: false
+      widget_default_open: expandIfValuesSet
+    third_party_settings: {  }
+  field_media_image:
+    type: media_library_widget
+    weight: 3
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_small_text:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

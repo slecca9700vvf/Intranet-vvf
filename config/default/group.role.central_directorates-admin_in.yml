@@ -1,0 +1,15 @@
+uuid: 5a1d9202-a886-444b-a669-014a06fce97b
+langcode: it
+status: true
+dependencies:
+  config:
+    - group.type.central_directorates
+    - user.role.administrator
+id: central_directorates-admin_in
+label: Amministratore
+weight: 102
+admin: true
+scope: insider
+global_role: administrator
+group_type: central_directorates
+permissions: {  }

@@ -1,0 +1,44 @@
+uuid: e89e5cca-53a0-48c3-be8c-e5250160083a
+langcode: it
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.director_list
+    - taxonomy.vocabulary.document_topic
+    - taxonomy.vocabulary.document_type
+    - taxonomy.vocabulary.event_type
+    - taxonomy.vocabulary.faq_category
+    - taxonomy.vocabulary.headquarter_type
+    - taxonomy.vocabulary.office_list
+    - taxonomy.vocabulary.vvf_ict_application_deploy_state
+    - taxonomy.vocabulary.vvf_ict_application_type
+  module:
+    - admin_toolbar_search
+    - system
+    - taxonomy
+    - toolbar
+id: taxonomy_editor
+label: 'Taxonomy Editor'
+weight: -8
+is_admin: false
+permissions:
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'create terms in director_list'
+  - 'create terms in document_topic'
+  - 'create terms in document_type'
+  - 'create terms in event_type'
+  - 'create terms in faq_category'
+  - 'create terms in headquarter_type'
+  - 'create terms in office_list'
+  - 'create terms in vvf_ict_application_deploy_state'
+  - 'create terms in vvf_ict_application_type'
+  - 'edit terms in director_list'
+  - 'edit terms in document_topic'
+  - 'edit terms in document_type'
+  - 'edit terms in event_type'
+  - 'edit terms in faq_category'
+  - 'edit terms in headquarter_type'
+  - 'edit terms in office_list'
+  - 'use admin toolbar search'
+  - 'view the administration theme'

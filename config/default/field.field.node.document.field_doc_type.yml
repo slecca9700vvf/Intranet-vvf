@@ -1,0 +1,29 @@
+uuid: 1a6e641b-93d8-4a61-bc42-1b1c015bcd55
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_doc_type
+    - node.type.document
+    - taxonomy.vocabulary.document_type
+id: node.document.field_doc_type
+field_name: field_doc_type
+entity_type: node
+bundle: document
+label: 'Tipologia documento'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      document_type: document_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

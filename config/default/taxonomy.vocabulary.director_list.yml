@@ -1,0 +1,9 @@
+uuid: 12f71e51-68aa-40f2-9f77-e3d6cb5daf13
+langcode: it
+status: true
+dependencies: {  }
+name: 'Dirigente - Elenco'
+vid: director_list
+description: null
+weight: 0
+new_revision: false

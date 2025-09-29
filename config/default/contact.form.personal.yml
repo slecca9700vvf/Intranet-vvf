@@ -1,0 +1,13 @@
+uuid: 4ddea123-af33-4612-85c8-b47b5f94984a
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Modulo di contatto personale'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Il messaggio è stato inviato.'
+redirect: ''

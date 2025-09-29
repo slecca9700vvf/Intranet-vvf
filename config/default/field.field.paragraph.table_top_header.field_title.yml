@@ -1,0 +1,19 @@
+uuid: dd248b8d-8599-4659-a30f-6384e76153ff
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.table_top_header
+id: paragraph.table_top_header.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: table_top_header
+label: Titolo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

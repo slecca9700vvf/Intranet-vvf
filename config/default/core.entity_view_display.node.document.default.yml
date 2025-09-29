@@ -1,0 +1,68 @@
+uuid: ed3b5222-a1ed-44d9-b4a0-8f2bee62e4af
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.node.document.body
+    - field.field.node.document.field_doc_date
+    - field.field.node.document.field_doc_number
+    - field.field.node.document.field_doc_office
+    - field.field.node.document.field_doc_type
+    - node.type.document
+  module:
+    - datetime
+    - text
+    - user
+id: node.document.default
+targetEntityType: node
+bundle: document
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_doc_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_doc_number:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_doc_office:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_doc_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

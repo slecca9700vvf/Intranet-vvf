@@ -1,0 +1,9 @@
+uuid: 0b6d40f3-0224-471f-81fd-b07d9ce4cd0b
+langcode: it
+status: true
+dependencies: {  }
+name: 'Documento - Tematica di riferimento'
+vid: document_topic
+description: null
+weight: 0
+new_revision: false

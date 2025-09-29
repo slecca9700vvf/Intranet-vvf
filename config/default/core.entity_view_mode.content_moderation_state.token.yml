@@ -1,0 +1,11 @@
+uuid: d52b73e9-60f5-483a-9503-225e5f549a9d
+langcode: it
+status: true
+dependencies:
+  module:
+    - content_moderation
+id: content_moderation_state.token
+label: Token
+description: null
+targetEntityType: content_moderation_state
+cache: true

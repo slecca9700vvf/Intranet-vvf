@@ -1,0 +1,45 @@
+uuid: c72daf7d-ecb2-4b73-99e7-17c07171b2d9
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.central_directorates-9376111be95.group_roles
+    - group.relationship_type.central_directorates-9376111be95
+  module:
+    - path
+id: group_relationship.central_directorates-9376111be95.default
+targetEntityType: group_relationship
+bundle: central_directorates-9376111be95
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  group_roles:
+    type: options_buttons
+    weight: 31
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

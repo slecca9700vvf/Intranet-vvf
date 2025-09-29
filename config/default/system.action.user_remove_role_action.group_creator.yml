@@ -1,0 +1,14 @@
+uuid: 01c56fe2-e65b-4716-932e-f5bf984671d8
+langcode: it
+status: true
+dependencies:
+  config:
+    - user.role.group_creator
+  module:
+    - user
+id: user_remove_role_action.group_creator
+label: 'Remove the Group Creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: group_creator

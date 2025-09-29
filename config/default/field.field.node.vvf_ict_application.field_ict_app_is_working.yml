@@ -1,0 +1,21 @@
+uuid: 0a8e23c6-9db0-41a5-82de-aa6a868f98d9
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ict_app_is_working
+    - node.type.vvf_ict_application
+id: node.vvf_ict_application.field_ict_app_is_working
+field_name: field_ict_app_is_working
+entity_type: node
+bundle: vvf_ict_application
+label: 'Stato operatività'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Acceso
+  off_label: Spento
+field_type: boolean

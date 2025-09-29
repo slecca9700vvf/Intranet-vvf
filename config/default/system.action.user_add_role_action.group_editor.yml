@@ -1,0 +1,14 @@
+uuid: 4bc19396-e986-45f7-9344-7a16ee36533c
+langcode: it
+status: true
+dependencies:
+  config:
+    - user.role.group_editor
+  module:
+    - user
+id: user_add_role_action.group_editor
+label: 'Add the Group Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: group_editor

@@ -1,0 +1,29 @@
+uuid: c66f1dd8-599c-4233-a235-9c79311ce1a5
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ict_app_type
+    - node.type.vvf_ict_application
+    - taxonomy.vocabulary.vvf_ict_application_type
+id: node.vvf_ict_application.field_ict_app_type
+field_name: field_ict_app_type
+entity_type: node
+bundle: vvf_ict_application
+label: Tipologia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vvf_ict_application_type: vvf_ict_application_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

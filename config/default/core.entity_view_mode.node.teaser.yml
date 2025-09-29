@@ -1,0 +1,13 @@
+uuid: 9eafdc7a-4819-4b32-8aeb-7fb4519dd537
+langcode: it
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: KgGJDZFpMaz_8bTv6fN1bXS3Qi5LWmRJI9R53kEGsNQ
+id: node.teaser
+label: Anteprima
+description: ''
+targetEntityType: node
+cache: true

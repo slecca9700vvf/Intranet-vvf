@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: it
+uuid: e1ecb293-4878-43dc-9337-c6adea4d5a57
+name: 'Intranet Dipartimento VVF'
+mail: temp_intranet@vigilfuoco.it
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: it
+mail_notification: null

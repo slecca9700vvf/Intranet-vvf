@@ -1,0 +1,28 @@
+uuid: 5ac97221-e8c9-44ea-b6f6-80313066e3ce
+langcode: it
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - contact
+    - file
+    - filter
+    - media
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'Utente autenticato'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'delete own files'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'view media'

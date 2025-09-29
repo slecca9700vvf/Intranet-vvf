@@ -1,0 +1,22 @@
+uuid: 57f3fa02-0775-403c-bf1a-c96d3a2152a4
+langcode: it
+status: true
+dependencies:
+  theme:
+    - claro
+_core:
+  default_config_hash: ACjBZI5shAMiiUpsz-inLYVXDqNNXRnSzAWV3kV_8Hw
+id: claro_primary_local_tasks
+theme: claro
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Schede primarie'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

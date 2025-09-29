@@ -1,0 +1,29 @@
+uuid: 360a6271-1c6f-4c92-8b81-4522b582f9e0
+langcode: it
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_table
+    - paragraphs.paragraphs_type.table_top_header
+  module:
+    - tablefield
+id: paragraph.table_top_header.field_table
+field_name: field_table
+entity_type: paragraph
+bundle: table_top_header
+label: Tabella
+description: "La prima riga apparirà come intestazione della tabella. Lascia vuota la prima riga se non hai bisogno di un'intestazione.<br><br>\r\nPer le modifiche alle celle puoi utilizzare i seguenti <code>token</code> all'interno della singola cella:\r\n<ul>\r\n  <li><strong><code>#rowspan#</code></strong> unisce la cella con quella sopra</li>\r\n  <li><strong><code>#colspan#</code></strong> unisce la cella con quella a sinistra</li>\r\n  <li><strong><code>#remove#</code></strong> rimuove una cella</li>\r\n</ul>"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  export: false
+  restrict_rebuild: true
+  restrict_import: true
+  lock_values: false
+  cell_processing: 1
+  empty_rules:
+    ignore_table_structure: true
+    ignore_table_header: false
+field_type: tablefield

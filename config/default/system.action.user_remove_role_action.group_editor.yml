@@ -1,0 +1,14 @@
+uuid: a51993ab-9ab9-441c-89ff-70eacf984293
+langcode: it
+status: true
+dependencies:
+  config:
+    - user.role.group_editor
+  module:
+    - user
+id: user_remove_role_action.group_editor
+label: 'Remove the Group Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: group_editor

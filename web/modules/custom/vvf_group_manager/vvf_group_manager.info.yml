@@ -1,0 +1,14 @@
+name: VVF Group Manager
+description: VVF Group Manager Module used to manage Groups programmatically
+package: VVF Intranet
+
+type: module
+core_version_requirement: ^11.2
+dependencies:
+  - paragraphs:paragraphs
+  - drupal:group
+  - drupal:taxonomies
+
+php: 8.3
+
+# required: true
